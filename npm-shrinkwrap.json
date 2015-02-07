@@ -3,15 +3,15 @@
   "version": "0.0.9",
   "from": "rssparser",
   "dependencies": {
-    "iconv": {
-      "version": "2.1.4",
-      "from": "iconv@2.1.4",
-      "resolved": "https://registry.npmjs.org/iconv/-/iconv-2.1.4.tgz",
+    "encoding": {
+      "version": "0.1.11",
+      "from": "encoding@",
+      "resolved": "https://registry.npmjs.org/encoding/-/encoding-0.1.11.tgz",
       "dependencies": {
-        "nan": {
-          "version": "1.1.2",
-          "from": "nan@1.1.2",
-          "resolved": "https://registry.npmjs.org/nan/-/nan-1.1.2.tgz"
+        "iconv-lite": {
+          "version": "0.4.7",
+          "from": "iconv-lite@~0.4.4",
+          "resolved": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.7.tgz"
         }
       }
     },
